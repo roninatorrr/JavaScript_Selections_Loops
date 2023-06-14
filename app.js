@@ -122,7 +122,7 @@ for (let i = start; i <= m; i++) {
         output += "FIZZ";
     }
 
-    if (i % buzzDivisor) {
+    if (i % buzzDivisor == 0) {
         output += "BUZZ";
     }
 
